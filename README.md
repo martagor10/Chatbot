@@ -1,11 +1,7 @@
 # Chatbot
 ## How to use
 1. Download repository
-2. Open frontend project and run
-```
-npm install
-```
-to install dependencies
+2. Open frontend project and run ``` npm install ```to install dependencies
 3. Run project
 4. Run backend project
 5. Use login btn to provide a nickname (it's necessary to differentiate conversations)
