@@ -1,0 +1,26 @@
+@use '@angular/material' as mat;
+@import 'https://fonts.googleapis.com/icon?family=Material+Icons|Material+Icons+Outlined';
+@import 'https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap';
+
+html {
+  color-scheme: light dark;
+  @include mat.theme((
+    color: mat.$cyan-palette,
+    typography: Roboto,
+    density: 0
+  ));
+}
+
+.example-form {
+  min-width: 150px;
+  max-width: 500px;
+  width: 100%;
+}
+
+.example-full-width {
+  width: 100%;
+}
+
+.btn {
+  float: right;
+}

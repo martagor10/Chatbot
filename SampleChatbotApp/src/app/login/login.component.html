@@ -1,0 +1,19 @@
+<div class="login-menu">
+  @if (currentUser$ | async) {
+    <label>Hi {{ currentUser$ | async }}!</label>
+  }
+  <div>
+    @if (!(currentUser$ | async)) {
+      <button mat-fab extended (click)="openDialog()">
+        <mat-icon>login</mat-icon>
+        Login
+      </button>
+    } @else {
+      <button mat-fab extended (click)="logout()">
+        <mat-icon>logout</mat-icon>
+        Logout
+      </button>
+    }
+  </div>
+</div>
+

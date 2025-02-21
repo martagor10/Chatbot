@@ -1,0 +1,32 @@
+<div #scrollTarget class="conversation-container">
+  @if (currentUser) {
+    @for (message of messages$ | async; track message.id) {
+      <div class="message-container" [class.user-message-container]="message.kind === MessageKind.User"
+           [class.chatbot-message-container]="message.kind === MessageKind.Chatbot">
+        <mat-card class="card" [class.chatbot-card]="message.kind === MessageKind.Chatbot" appearance="outlined">
+          <mat-card-content class="card-content">
+            {{ message.text }}
+          </mat-card-content>
+          @if (message.kind === MessageKind.Chatbot) {
+            <mat-card-actions>
+              @if (!message.inProgress) {
+                <button mat-icon-button (click)="upvoteMessage(message)">
+                  <mat-icon [fontSet]="message.rating === MessageRating.Positive ? 'material-icons' : 'material-icons-outlined'">thumb_up</mat-icon>
+                </button>
+                <button mat-icon-button (click)="downvoteMessage(message)">
+                  <mat-icon [fontSet]="message.rating === MessageRating.Negative ? 'material-icons' : 'material-icons-outlined'">thumb_down</mat-icon>
+                </button>
+              } @else {
+                <button mat-icon-button (click)="cancelMessage(message)">
+                  <mat-icon>cancel</mat-icon>
+                </button>
+              }
+            </mat-card-actions>
+          }
+        </mat-card>
+        <p class="date-display">{{ message.createdAt | date: 'medium' }}</p>
+      </div>
+    }
+  }
+</div>
+

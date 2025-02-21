@@ -1,0 +1,18 @@
+h1 {
+  text-align: center;
+}
+
+.center {
+  display: flex;
+  justify-content: center;
+}
+
+.login-container {
+  position: fixed;
+  right: 1rem;
+  top: 1rem;
+}
+
+.conversation-container {
+  top: 1rem;
+}

@@ -1,0 +1,16 @@
+<h2 mat-dialog-title>Please provide your nickname to continue:</h2>
+<mat-dialog-content class="mat-typography">
+<form [formGroup]="nicknameForm" class="example-form">
+  <mat-form-field class="example-full-width">
+    <mat-label>Nickname</mat-label>
+    <input formControlName="nickname" matInput/>
+    @if (nicknameForm.controls.nickname.hasError('required')) {
+      <mat-error>Please enter a nickname</mat-error>
+    }
+  </mat-form-field>
+</form>
+</mat-dialog-content>
+<mat-dialog-actions align="end">
+  <button mat-button mat-dialog-close>Cancel</button>
+  <button [disabled]="!nicknameForm.valid" mat-button mat-dialog-close (click)="submitForm()">Submit</button>
+</mat-dialog-actions>

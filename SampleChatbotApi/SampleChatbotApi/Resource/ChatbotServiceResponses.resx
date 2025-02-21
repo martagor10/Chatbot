@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+
+<root>
+    <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+        <xsd:element name="root" msdata:IsDataSet="true">
+            
+        </xsd:element>
+    </xsd:schema>
+    <resheader name="resmimetype">
+        <value>text/microsoft-resx</value>
+    </resheader>
+    <resheader name="version">
+        <value>1.3</value>
+    </resheader>
+    <resheader name="reader">
+        <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    </resheader>
+    <resheader name="writer">
+        <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    </resheader>
+    <data name="Long" xml:space="preserve">
+        <value>Sed rhoncus dapibus sem, a laoreet felis posuere et. Vestibulum tincidunt pulvinar nibh. Suspendisse condimentum rutrum vestibulum. In interdum porta neque, vitae sodales tellus vulputate nec. Proin pulvinar rutrum vehicula. Proin vel nisl ante. Aliquam luctus commodo tortor, sit amet vestibulum purus. Donec in bibendum dui, et consectetur libero. Aliquam lacus enim, sagittis at risus sit amet, ultricies eleifend dui. Duis blandit turpis eu ex aliquet auctor in sed leo. Morbi feugiat est ac enim tristique condimentum. Cras eget urna gravida, scelerisque est nec, maximus ante. Suspendisse potenti. Nulla vel congue massa. Maecenas eu quam turpis.
+
+Sed faucibus hendrerit condimentum. Integer sit amet leo a sapien condimentum finibus. Aliquam lacus leo, convallis ac tincidunt id, tincidunt non est. Aenean aliquet facilisis est, vitae pharetra dolor ullamcorper nec. Sed in nunc in odio sodales varius. Suspendisse vel elit efficitur, dictum metus vel, imperdiet sem. Suspendisse mollis quis tellus quis interdum. Curabitur interdum justo vel urna blandit tristique. Vivamus accumsan urna eu orci faucibus porttitor. Aliquam erat volutpat. Donec vitae sapien laoreet tellus finibus aliquam ut ut ante.
+
+Morbi et diam id arcu cursus lobortis. In tristique imperdiet gravida. Cras in rutrum velit, sed hendrerit justo. Nam condimentum nisl non consectetur sodales. Sed congue ipsum sit amet feugiat fringilla. Pellentesque sollicitudin interdum tempus. Nulla id ultricies dolor, at aliquet nibh. Maecenas a accumsan ligula, et feugiat ex. Aenean sit amet dolor at ante mollis sodales consequat in neque. Aliquam erat volutpat.</value>
+    </data>
+    <data name="Medium" xml:space="preserve">
+        <value>Donec non nisl in nisl imperdiet lobortis. Proin id felis ante. Maecenas tempor elit augue, ut ultricies lorem ullamcorper nec. Donec aliquam orci sit amet venenatis gravida. Vestibulum vitae faucibus orci. Donec gravida mi sed sem tristique faucibus. Sed placerat tincidunt suscipit. Donec egestas metus gravida, feugiat felis id, blandit magna. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi convallis placerat lorem id feugiat. Integer libero orci, pretium ac imperdiet ac, tempor sit amet dui.</value>
+    </data>
+    <data name="Short" xml:space="preserve">
+        <value>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque ut nibh rhoncus, consectetur ex et, ultricies dui. Ut lobortis nec purus eu aliquet.</value>
+    </data>
+</root>

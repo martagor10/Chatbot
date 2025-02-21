@@ -1,0 +1,10 @@
+.login-menu {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 1rem;
+
+  label {
+    font: var(--mat-sys-label-large);
+  }
+}

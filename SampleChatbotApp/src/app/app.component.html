@@ -1,0 +1,10 @@
+<app-login class="btn login-container"></app-login>
+<div class="center">
+  @if (!(currentUser | async)) {
+    <h1>Hi! How can I help you?</h1>
+  }
+  @if (currentUser | async) {
+    <app-conversation class="conversation-container"/>
+  }
+</div>
+<app-message-form class="center"/>
